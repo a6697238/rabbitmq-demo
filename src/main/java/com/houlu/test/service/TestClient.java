@@ -29,11 +29,11 @@ public class TestClient {
     @Test
     public void main() throws InterruptedException {
         while (true){
-//            Message message =new Message();
-//            message.setMessageContent("ceshi");
-//            message.setMessageId("01");
-//            message.setMessageType("direcet");
-//            fanoutQueueService.sendDataToQueue(RabbitMqConstant.DIRECT_QUEUE,message);
+            Message message =new Message();
+            message.setMessageContent("ceshi");
+            message.setMessageId("01");
+            message.setMessageType("direcet");
+            fanoutQueueService.sendDataToQueue(RabbitMqConstant.DIRECT_QUEUE,message);
             Thread.sleep(3000);
         }
     }
