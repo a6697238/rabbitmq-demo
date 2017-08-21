@@ -18,4 +18,6 @@ public class RabbitMqConstant {
     public final static String DIRECT_TEMPLATE = "directTemplateBean";
     public final static String FANOUT_TEMPLATE = "fanoutTemplateBean";
 
+
+
 }
